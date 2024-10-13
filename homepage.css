@@ -36,12 +36,14 @@ nav ul li a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     padding: 20px;
-    font-size: larger;
+    font-size: large;
+    font-weight: bold;
 
 }
 
 nav ul li  :hover{
-    background-color: black;
+    background-color: white;
+    color: rgb(39, 39, 249);
     border-radius: 30px;
 
 }
@@ -58,10 +60,12 @@ h1{
     text-align: center;
     padding: 80px;
     transform: translateY(-30px); 
+    font-weight: bolder;
 }
 
 h2{
     text-align: center;
+    font-weight: lighter;
     transform: translateY(-70px); 
 }
 
