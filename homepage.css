@@ -1,0 +1,121 @@
+*, html{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+width: 70px;
+display: flex;
+background-color: whitesmoke;
+border-radius: 10px;
+padding: 5px;
+}
+
+body {
+    background-color: white;
+}
+
+nav{
+    background-color: rgb(39, 39, 249);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 20px;
+    font-size: larger;
+
+}
+
+nav ul li  :hover{
+    background-color: black;
+    border-radius: 30px;
+
+}
+
+
+
+nav ul li :focus {
+    text-decoration: underline;
+    outline: none;
+
+}
+
+h1{
+    text-align: center;
+    padding: 80px;
+    transform: translateY(-30px); /* Geser ke atas sebesar 20px */
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    transform: translateY(-100px); /* Geser ke atas sebesar 20px */
+}
+
+.carousel-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+
+.carousel-item {
+    flex: 0 0 30%;
+    text-align: center;
+    margin: 0 10px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; /* Set container height */
+}
+
+.carousel-item img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    background-color: white;
+}
+
+button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button.prev {
+    left: 0;
+}
+
+button.next {
+    right: 0;
+}
+
+button:hover {
+    background-color: #555;
+}
