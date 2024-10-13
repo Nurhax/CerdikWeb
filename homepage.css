@@ -57,7 +57,12 @@ nav ul li :focus {
 h1{
     text-align: center;
     padding: 80px;
-    transform: translateY(-30px); /* Geser ke atas sebesar 20px */
+    transform: translateY(-30px); 
+}
+
+h2{
+    text-align: center;
+    transform: translateY(-70px); 
 }
 
 .carousel-container {
@@ -66,7 +71,7 @@ h1{
     align-items: center;
     position: relative;
     overflow: hidden;
-    transform: translateY(-100px); /* Geser ke atas sebesar 20px */
+    transform: translateY(-100px); 
 }
 
 .carousel-slide {
@@ -100,22 +105,26 @@ button.prev, button.next {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: black;
-    color: white;
-    border: none;
+    color: black;
     font-size: 18px;
     padding: 10px;
+    border: none;
+    width: 50px; /* Atur lebar */
+    height: 50px;
     cursor: pointer;
+    border-radius: 100%;
+    background-color: white;
 }
 
 button.prev {
-    left: 0;
+    left: 10px;
 }
 
 button.next {
-    right: 0;
+    right: 10px;
 }
 
 button:hover {
-    background-color: #555;
+    background-color: black;
+    color: white;
 }
