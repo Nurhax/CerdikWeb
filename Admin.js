@@ -6,6 +6,15 @@ function HideLogin(){
         alert("PASSWORD DAN USERNAME SALAH!");
     }else{
         alert("Login Berhasil!");
-        $(".Square").html("");
+        $(".SquareLogin").remove();
+        $(".SquareMenu").removeAttr("hidden");
     }
+}
+
+function RedirectToMitra(){
+
+}
+
+function RedirectToObat(){
+    
 }
