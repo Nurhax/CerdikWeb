@@ -57,6 +57,22 @@ main {
     width: 150px;
 }
 
+.carousel-inner {
+    min-height: 150px; /* Atur tinggi minimum sesuai kebutuhan */
+    padding-bottom: 40px; /* Tambahkan padding untuk memberi ruang pada tombol */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Untuk menyeimbangkan konten */
+}
+
+.carousel-item {
+    margin-bottom: 10px; /* Jarak antar item dalam carousel */
+}
+
+.carousel-item p {
+    margin: 0; /* Hapus margin default pada elemen paragraf */
+}
+
 footer {
     display: flex;
     justify-content: center;
