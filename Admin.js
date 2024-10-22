@@ -7,8 +7,6 @@ function HideLogin(){
     Username = $("#Username").val();
     Password = $("#Password").val();
     for(var i = 0; i < arrUser.length; i++){
-        console.log(arrUser[i], arrPass[i]);
-        console.log(Username, Password)
         if(arrUser[i] == Username && arrPass[i] == Password){
             isRegistered = true;
 
