@@ -4,20 +4,27 @@
     box-sizing: border-box;
 }
 
-img{
-width: 70px;
-display: flex;
-background-color: whitesmoke;
-border-radius: 10px;
-padding: 5px;
+
+.Logo {
+height: 50px;
+
+ display: flex;
+ justify-content: flex-start;
+ align-items: left;
 }
 
+.Logo p{
+    padding-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+}
 body {
     background-color: white;
 }
 
 nav{
-    background-color: rgb(39, 39, 249);
+    background-color: #2563EB;
     display: flex;
     justify-content: space-between;
     padding: 30px;
@@ -132,3 +139,41 @@ button:hover {
     background-color: black;
     color: white;
 }
+
+     /* Atur container carousel */
+     .carousel-container {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        margin: auto;
+    }
+
+    /* Slide diatur agar gambar berjajar secara horizontal */
+    .carousel-slide {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        animation: slide 15s linear infinite; /* Animasi slide berjalan terus-menerus */
+    }
+
+    /* Atur gambar dalam ukuran kecil */
+    .carousel-item {
+        min-width: 200px; /* Lebar gambar kecil */
+        margin: 0 10px; /* Spasi antar gambar */
+    }
+
+    .carousel-item img {
+        width: 100%; /* Gambar memenuhi kotak */
+        height: auto;
+        display: block;
+    }
+
+    /* Animasi untuk pergerakan gambar */
+    @keyframes slide {
+        0% {
+            transform: translateX(0); /* Mulai dari posisi awal */
+        }
+        100% {
+            transform: translateX(-50%); /* Bergerak setengah dari total konten karena kita menggandakan gambar */
+        }
+    }
