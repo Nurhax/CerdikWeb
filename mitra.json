@@ -1,0 +1,13 @@
+{
+    "mitra":[
+        {"nama": "Telkom University", "imgSrc" :"./telu.png", "sejak":2022},
+        {"nama": "T-Mart", "imgSrc" :"./CerdikLogo.png", "sejak":2023},
+        {"nama": "Pempek Ny.Lita", "imgSrc" :"./", "sejak":2024},
+        {"nama": "Cut-Cut RoadRage", "imgSrc" :"./", "sejak":2023},
+        {"nama": "Souf n'Cake", "imgSrc" :"./","sejak":2024},
+        {"nama": "madjadev studios", "imgSrc" :"./","sejak":2022},
+        {"nama": "sendwish", "imgSrc" :"./","sejak":2024},
+        {"nama": "nurhax", "imgSrc" :"./","sejak":2019},
+        {"nama": "mentaiCo.", "imgSrc" :"./","sejak":2024}
+    ]
+}
