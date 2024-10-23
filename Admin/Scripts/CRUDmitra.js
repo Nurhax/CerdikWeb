@@ -14,7 +14,11 @@ $(document).ready(function(){
         checkSelectedRows();              // Check how many rows are selected
     });
 
+<<<<<<< HEAD
     $.getJSON('mitra.json', function(mitraData){
+=======
+    $.getJSON('Scripts/mitra.json', function(mitraData){
+>>>>>>> main
         //Membaca JSON dan menambah data pada JSON
         const tbody = $('tbody');
 

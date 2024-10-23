@@ -27,7 +27,11 @@ $(document).ready(function(){
 
 
 function loadJSON(){
+<<<<<<< HEAD
     $.getJSON('Admin.json', function(data){
+=======
+    $.getJSON('Scripts/Admin.json', function(data){
+>>>>>>> main
         for(var i in data["AdminAccount"]){
             arrUser.push(data["AdminAccount"][i]["username"]);
             arrPass.push(data["AdminAccount"][i]["password"]);

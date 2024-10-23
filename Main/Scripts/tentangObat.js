@@ -7,7 +7,11 @@ $(document).ready(function () {
 });
 
 function loadJSON() {
+<<<<<<< HEAD
     $.getJSON('Scripts/tentangObat.json', function (data) {
+=======
+    $.getJSON('tentangObat.json', function (data) {
+>>>>>>> main
         for (var i in data["informasiObat"]) {
             arrTitle.push(data["informasiObat"][i]["title"]);
             arrDesk.push(data["informasiObat"][i]["deskripsi"]);
