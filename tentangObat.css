@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #2563EB;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    position: fixed;
+    top: 0; /* Jarak dari atas */
+    width: 100%; /* Lebar penuh */
+    z-index: 1000; /* Pastikan navbar berada di atas konten lainnya */
+}
+
+.Logo img {
+    height: 50px; /* Tentukan tinggi logo */
+    width: auto;  
+}
+
+.Logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+}
+
+.Logo p{
+    padding-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 20px;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+nav ul li  :hover{
+    background-color: white;
+    color: rgb(39, 39, 249);
+    border-radius: 30px;
+
+}
+
+
+
+nav ul li :focus {
+    text-decoration: underline;
+    outline: none;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 150px; /* Increase this value if needed */
+    color: black; /* Make sure it's visible */
+}
+.container{
+    width: 100%;
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+}
+.searchBar{
+    margin-top: 20px;
+    width: 100%;
+    max-width: 700px;
+    background: rgba(75, 125, 255, 0.5);
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+
+.searchBar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+}
+
+::placeholder{
+    color: white;
+}
+
+.searchBar button img{
+    width: 25px;
+}
+
+.searchBar button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #5e8bff;
+    cursor: pointer;
+}
+
+.searchBar button:hover {
+    background-color: #3a6bff;
+    transform: scale(1.1); /* membuat zoom in ketika di hover */
+    transition: all 0.3s ease; /* buat transisi halus */
+}
+
+/*table*/
+
+.column-grid {
+    display: grid;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(4, 400px);
+    gap: 25px;
+    padding:35px;
+}
+
+.card {
+    background-color: #2563EB;
+    border: 2px solid #2e77ff;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Atur jarak antara gambar dan nama card */
+    height: 250px;
+    cursor: pointer;
+    transition: box-shadow 0.6s ease;
+}
+
+.card:hover {
+    box-shadow: 0 1px 12px  #6490ff; /* Menambahkan efek shadow saat di-hover */
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    border: none; 
+    border-bottom: 2px solid #2563EB;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+    object-fit: cover;
+}
+
+.card-name {
+    padding: 13px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border-radius: 0 0 10px 10px;
+}
+
+.card .card-name:hover{
+    transform: scale(0.9); 
+    transition: all 0.6s ease; 
+}
+
+.button-selengkapnya{
+    display: flex;
+    justify-content: center;
+}
+
+.button-action button{
+    width: 200px;  /* Atur lebar tombol */
+    height: 50px;  /* Atur tinggi tombol */
+    font-size: 18px; /* Atur ukuran font jika diperlukan */
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #2e77ff;
+    color: #2e77ff;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.button-action :hover{
+    background-color: #2e77ff;
+    color: white;
+}
+
+.popup {
+    display: none; /* Hidden by default */
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.popup-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    padding-top: 60px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    max-width: 600px;
+    border-radius: 20px;
+    position: relative;
+}
+
+#popup-title{
+    font-weight: bold;
+    font-size:x-large;
+}
+
+.back-button {
+    background-color: #007BFF; /* Bootstrap Primary Color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute; /* Position relative to popup-content */
+    top: 20px; /* Adjust this value for vertical spacing */
+    right: 20px; /* Adjust this value for horizontal spacing */
+}
+
+.back-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+footer {
+    background-color: #2563EB;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.footer-column {
+    flex: 1; /* Membuat setiap kolom menempati ruang yang sama */
+    
+}
+
+.footer-section {
+    margin-bottom: 30px;
+}
+
+.footer-section h4 {
+    padding-left: 50px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+    padding: 0px 50px;
+}
+
+.footer-column h5 {
+    margin-bottom: 15px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.footer-column{
+    padding-right: 400px;
+}
+
+.footer-column ul {
+    list-style: none;
+    text-align: left;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-apps a img {
+    width: 140px;
+    margin: 0 10px;
+}
