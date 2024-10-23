@@ -1,0 +1,71 @@
+.SquareLogin{
+    margin: 0;
+   background-color: #FFFFFF;
+    width: 800px;
+    height: 800px;
+    border-radius: 10px;
+}
+
+.SquareMenu{
+    margin: 0;
+   background-color: #FFFFFF;
+    width: 800px;
+    height: 800px;
+    border-radius: 10px;
+}
+
+.LoginText{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: white;
+    background-color: #2569FF;
+    border-radius: 10px;
+}
+
+.MenuText{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: white;
+    background-color: #2569FF;
+    border-radius: 10px;
+}
+
+.MenuButtons{
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+    font-size: large;
+}
+
+.InputForm{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+    height: 200px;
+    color: #2569FF;
+}
+
+.LoginButton{
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+    font-size: large;
+}
+
+body{
+    background: rgb(37,99,235);
+    background: linear-gradient(90deg, rgba(37,99,235,1) 0%, rgba(96,165,250,1) 100%); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

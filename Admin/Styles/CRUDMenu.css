@@ -1,0 +1,30 @@
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 20px;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+nav ul li  :hover{
+    background-color: white;
+    color: #2563EB;
+    border-radius: 30px;
+
+}
+
+
+nav ul li :focus {
+    text-decoration: underline;
+    outline: none;
+
+}
