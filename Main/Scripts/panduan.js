@@ -7,7 +7,7 @@ $(document).ready(function(){
 });
 
 function loadJSON(){
-    $.getJSON('panduan.json', function(data){
+    $.getJSON('Scripts/panduan.json', function(data){
         for(var i in data["Kategori"]){
             arrTitle.push(data["Kategori"][i]["title"]);
             arrContent.push(data["Kategori"][i]["content"]);

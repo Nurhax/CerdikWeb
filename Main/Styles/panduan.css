@@ -16,7 +16,11 @@ body {
 
 header {
     width: 100%;
+<<<<<<< HEAD
+    background-color: #2563EB;
+=======
     background-color: rgb(39, 39, 249);
+>>>>>>> main
     color: white;
     padding: 15px;
     display: flex;
@@ -30,6 +34,27 @@ header {
     margin-left: 10px;
 }
 
+<<<<<<< HEAD
+.logo img {
+    height: 50px; /* Tentukan tinggi logo */
+    width: auto;  
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+}
+
+p{
+    padding-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+=======
+>>>>>>> main
 
 header h1{
     color: white;
@@ -38,7 +63,11 @@ header h1{
 }
 
 nav{
+<<<<<<< HEAD
+    background-color: #2563EB;
+=======
     background-color: rgb(39, 39, 249);
+>>>>>>> main
     display: flex;
     justify-content: space-between;
     padding: 30px;
