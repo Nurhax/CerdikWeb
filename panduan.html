@@ -1,11 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="panduan.css">
+    <title>Panduan</title>
 </head>
+
 <body>
-    
+    <header>
+        <div class="logo">
+            <img src="CerdikLogo1.png" alt="Logo" style="height: 70px;">
+        </div>
+        <nav>
+            <ul>
+                <li> <a href="#">Beranda</a></li>
+                <li> <a href="#">Mitra Kami</a></li>
+                <li> <a href="#">Tentang Obat</a></li>
+                <li> <a href="#">Panduan</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Ada yang bisa kami bantu?</h1>
+
+        <div class="search-bar">
+            <form action="" class="searchBar">
+                <input type="text" placeholder="Ketik kata kunci" name="cariPanduan">
+                <button type="submit"><img src="searchIcon.png" alt="Search Icon"> </button>
+            </form>
+        </div>
+    </div>
+
+    <div class="categories">
+        <h2>Yang sering ditanyakan</h2>
+        <div class="category-boxes">
+            <div class="category-box" onclick="showPopup(0)">Jadwal Obat</div>
+            <div class="category-box" onclick="showPopup(1)">Obat</div>
+            <div class="category-box" onclick="showPopup(2)">Help Center</div>
+        </div>
+    </div>
+
+    <!-- Popup modal -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <button class="back-button" onclick="closePopup()">Kembali</button>
+            <p id = 'popup-title'></p>
+            <p id="popup-text"></p>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="panduan.js"></script>
+
 </body>
+
 </html>
