@@ -1,15 +1,13 @@
-h1{
+h1 {
     margin-top: 15px;
 }
-
 
 nav ul {
     display: flex;
     list-style: none;
     align-items: center;
-    padding-top:15px
+    padding-top: 15px;
 }
-
 
 nav ul li a {
     text-decoration: none;
@@ -18,30 +16,25 @@ nav ul li a {
     padding: 20px;
     font-size: large;
     font-weight: bold;
-
 }
 
-nav ul li  :hover{
+nav ul li:hover {
     background-color: white;
     color: #2563EB;
     border-radius: 30px;
-
 }
 
-
-nav ul li :focus {
+nav ul li:focus {
     text-decoration: underline;
-    outline: none;
-
+    outline: none;
 }
 
-
-img{
+img {
     height: 70px;
 }
 
-btn-custom {
-    background-color: rgba(0, 123, 255, 0.8) !important; 
+.btn-custom {
+    background-color: rgba(0, 123, 255, 0.8) !important;
 }
 
 .btn-custom:hover {
@@ -65,7 +58,7 @@ tr.selected .custom-checkbox {
 /* Custom checkbox styles when checked */
 .custom-checkbox:checked {
     background-color: #007bff; /* Custom color when checked */
-    border-radius: 50%;/* Optional: round checkbox for style */
+    border-radius: 50%; /* Optional: round checkbox for style */
 }
 
 /* Hide the checkbox column header */
@@ -91,28 +84,57 @@ tr.selected td:last-child {
 
 tr td {
     background-color: #f0f0f0; /* Example background color */
-    border: 1px solid #ddd;    /* Example border for all cells */
+    border: 1px solid #ddd; /* Example border for all cells */
+    padding: 10px; /* Optional padding */
 }
 
 /* Remove background and border for the last column */
 tr td:last-child {
-    background-color: transparent !important; /* Force transparent background */
-    border: none !important;                  /* Force no border */
-    box-shadow: none !important;              /* Ensure no shadow looks like a border */
-    padding: 0 !important;                    /* Optional: if any padding makes it seem like there's a border */
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
-tr td:last-child {
-    background-color: transparent !important; /* Force transparent background */
-    border: none !important;                  /* Force no border */
-    box-shadow: none !important;              /* Ensure no shadow looks like a border */
-    padding: 0 !important;                    /* Optional: if any padding makes it seem like there's a border */
-    display: flex;                            /* Use flexbox to center the checkbox */
-    justify-content: center !important;                  /* Horizontally center */
-    align-items: center !important;                      /* Vertically center */
-    height: 100%;                             /* Ensure full height for vertical alignment */
-}
-/* Add a hover effect to rows */
+/* Add hover effect to rows */
 tr:hover {
-    background-color: #e3f2fd; /* Slight color change on hover */
+    background-color: #e3f2fd;
+}
+
+/* Set border-collapse to ensure borders don't overlap */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Ensure the header row has a consistent border */
+table thead th {
+    border: 1px solid #ddd;
+    background-color: #e3f2fd;
+}
+
+/* Add hover effect to rows */
+table tr:hover {
+    background-color: #e3f2fd;
+}
+
+table {
+    border-collapse: collapse; /* Ensures borders do not double up */
+    width: 100%;
+}
+
+th, td {
+    padding: 10px; /* Adjust for better spacing */
+    border: 1px solid #ddd; /* Sets a clear, consistent border */
+    text-align: center; /* Centers the text within cells */
+    vertical-align: middle; /* Ensures vertical alignment */
+}
+
+th {
+    background-color: #2563EB; /* Table header background color */
+    color: white; /* Header text color */
 }
