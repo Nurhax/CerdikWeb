@@ -23,7 +23,6 @@ nav ul li a {
 
 }
 
-<<<<<<< HEAD
 nav ul li:hover {
     background-color: white;
     color: rgb(39, 39, 249);
@@ -99,19 +98,4 @@ nav ul li:focus {
     width: 140px;
     margin: 0 10px;
 }
-=======
-nav ul li  :hover{
-    background-color: white;
-    color: rgb(39, 39, 249);
-    border-radius: 30px;
 
-}
-
-
-
-nav ul li :focus {
-    text-decoration: underline;
-    outline: none;
-
-}
->>>>>>> 3f1b7347f912f32caddb84e6a4e80c478f43e2d0
