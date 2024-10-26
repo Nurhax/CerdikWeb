@@ -1,3 +1,5 @@
+
+
 $(document).ready(function() {
     const slideWidth = $('.carousel-item').outerWidth(true); // Lebar satu slide
     const totalSlides = $('.carousel-item').length;
@@ -25,6 +27,7 @@ $(document).ready(function() {
     }
 
     // Set interval untuk perpindahan otomatis setiap 3 detik
-    setInterval(moveCarousel, 3000);
+    setInterval(moveCarousel, 2000);
+
 });
 

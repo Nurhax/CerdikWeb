@@ -118,4 +118,86 @@ h2 {
     margin-bottom: 5px;
 }
 
+footer {
+    background-color: #2563EB;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
 
+
+.footer-column {
+    flex: 1;
+    padding-right: 0; /* Remove padding to center-align text */
+}
+
+.footer-section h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center; /* Center-align title */
+    margin-top: 20px;
+    padding-left: 75px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center; /* Center columns in footer */
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+    padding: 0 20px; /* Adjust padding as needed */
+}
+
+.footer-column h5 {
+    margin-bottom: 15px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.footer-column ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 296px;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-apps a img {
+    width: 140px;
+    margin: 0 10px;
+}
+
+.footer-column .ipo  {
+    list-style: none;
+    text-align: left;
+   padding-left: 41%;
+    text-decoration: none;
+}
+
+.footer-column .ipo li a{
+    color: white;
+}
+
+.footer-column .rata {
+    list-style: none;
+    text-align: left;
+   padding-left: 290px;
+    padding-right: 20%;
+    
+}
+
+.footer-column .rata li a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-column .rata li {
+    margin-bottom: 10px;
+}
