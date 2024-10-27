@@ -21,7 +21,7 @@
             "deskripsi" : "Tentang\nGaviscon dapat digunakan untuk mengobati sakit maag (refluks asam) dan gangguan pencernaan .Obat ini bekerja dengan membentuk lapisan pelindung yang mengapung di atas isi lambung Anda. Hal ini menghentikan asam lambung naik ke kerongkongan Anda. Gaviscon juga mengandung antasida yang menetralkan asam lambung berlebih dan mengurangi rasa sakit dan ketidaknyamanan.Gaviscon tersedia dalam bentuk tablet kunyah, atau cairan yang diminum (dalam botol atau sachet). Gaviscon juga tersedia dalam bentuk bubuk untuk bayi dan anak di bawah usia 2 tahun.Anda dapat membeli Gaviscon di apotek dan supermarket. Beberapa jenis Gaviscon tersedia dengan resep dokter\n\nKapan Harus Mengomsumsi Gaviscon\nJika Anda sesekali mengalami sakit maag ringan atau gangguan pencernaan, minumlah Gaviscon hanya ketika Anda membutuhkannya.Jika Anda sering mengalami sakit maag atau gangguan pencernaan, minumlah Gaviscon secara teratur setelah makan dan sebelum tidur, hingga 4 kali sehari, baik Anda mengalami gejala atau tidak.Jika Anda telah mengonsumsi Gaviscon selama lebih dari 7 hari dan masih merasa tidak nyaman atau nyeri, bicarakan dengan dokter Anda."
         },
         {
-            "title" : "OBAT BISOLVON",
+            "title" : "OBAT BISOLVON",  
             "deskripsi" : "Keterangan : \n Bisolvon® Extra merupakan sirup obat batuk yang mengandung dua kombinasi utama yaitu Bromhexine dan Guaiaphenesine yang dapat menjauhkan batuk dengan segera. Bromhexine bekerja mengencerkan dahak, sedangkan Guaiaphenesine bekerja meningkatkan aliran di sepanjang saluran pernapasan. Dua aksi ini akan bekerja saling melengkapi untuk meredakan batuk berdahak sekaligus mempermudah pengeluarannya. \n\n Efek samping : \n Bisolvon® Extra umumnya dapat diterima dengan baik tanpa efek samping. Adapun efek samping yang mungkin akan muncul adalah Alergi berupa ruam kulit, Sakit kepala dan vertigo,Gangguan saluran cerna"
         },
         {
@@ -31,6 +31,22 @@
         {
             "title" : "OBAT ORLISTAT",
             "deskripsi" : "Keterangan :\n Orlistat adalah obat yang digunakan untuk menurunkan berat badan pada orang yang mengalami kelebihan berat badan atau obesitas. Obat ini juga bisa menurunkan risiko naiknya berat badan kembali.Orlistat bekerja dengan cara menghambat enzim pemecah lemak, sehingga lemak tidak dapat dicerna dan diserap oleh tubuh. Dengan begitu, lemak yang dikonsumsi akan dibuang dan berat badan diharapkan akan berkurang.\n\n Efek Samping :\n Beberapa efek samping yang bisa timbul setelah mengonsumsi orlistat adalah: Diare,Tinja berlemak atau berminyak,Keluar bercak minyak saat buang angin,Muncul bercak minyak di pakaian dalam,Terlihat minyak berwarna oranye atau coklat bersama tinja,Meningkatnya frekuensi buang air besar,Sakit perut, mual, atau nyeri di dubur"
+        },
+        {
+            "title" : "OBAT BROCHIFAR",
+            "deskripsi" : "Tentang :\nPenyakit flu dan batuk bisa menyerang kapan saja. Karena itulah, menjaga daya tahan tubuh saat ini sangat penting.Namun, saat batuk dan flu telanjur menyerang, Anda bisa mengonsumsi obat flu yang banyak dijual di pasaran. Salah satunya Brochifar.Brochifar adalah obat yang digunakan untuk mengobati gejala flu, misalnya sakit kepala, demam, hidung tersumbat, batuk, dan bersin-bersin. Obat Brochifar mengandung paracetamol, phenylpropanolamine, guaifenesin, chlorpheniramine maleate, dan dextromethorphan.\n\nEfek Samping :\nEfek samping penggunaan Brochifar yang mungkin terjadi adalah:\nmengantuk\ngangguan pencernaan (mual, muntah, diare, dan sembelit)\ngangguan psikomotor\ntakikardia (denyut jantung lebih tinggi dari nilai normal)\naritmia (gangguan irama jantung)\npalpitasi (jantung berdebar)\nkerusakan hati (penggunaan dosis bersar dan jangka lama)"
+        },
+        {
+            "title" : "OBAT METHYLPREDNISOLONE",
+            "deskripsi" : "Tentang : \n Metilprednisolon atau methylprednisolone adalah obat yang bekerja dengan mengurangi respons sistem kekebalan tubuh terhadap berbagai rangsangan. Di antaranya peradangan, alergi, atau reaksi autoimunMethylprednisolone apakah termasuk obat keras? Jawabannya, ya. Karena itu, obat ini hanya dapat diperoleh dengan resep dari dokter. Penggunaannya dan dosisnya juga ditentukan langsung oleh dokter sesuai dengan kondisi medis. \n\n Manfaat Metilprednisolon : \n 1. Meredakan Peradangan \n 2. Mengendalikan Alergi \n 3. Mengurangi Gejala Penyakit Pernapasan \n 4. Mengatasi Gangguan Kulit \n5. Mengurangi Pembengkakan Otak\n\nEfek Samping :\n Sakit kepala\nMual dan muntah.\nPenambahan berat badan.Ruam kulit.\nGatal-gatal.\nPembengkakan pada wajah, bibir, atau lidah.\nPerubahan emosi dan suasana hati."
+        },
+        {
+            "title" : "OBAT OMEPRAZOLE",
+            "deskripsi" : "Keterangan : \n Omeprazole adalah obat untuk mengatasi asam lambung berlebih dan keluhan yang menyertainya. Omeprazole umumnya digunakan untuk mengobati gastroesophageal reflux disease (GERD), sakit maag (gastritis), atau tukak lambung.  \n\n Efek Samping :\n Efek samping di bawah ini biasanya bersifat ringan. Namun, periksakan ke dokter jika efek samping berikut ini tidak kunjung sembuh: \nSakit kepala \nSakit perut atau perut kembung \nMual atau muntah\nDiare\nSembelit\nGejala flu, seperti demam, sakit tenggorokan, atau pilek (biasanya pada anak)"
+        },
+        {
+            "title" : "OBAT COXIRON",
+            "deskripsi" : "Keterangan :\n Coxiron adalah obat yang mengandung Etoricoxib dan dikemas dalam bentuk sediaan tablet salut selaput. Coxiron digunakan untuk mengurangi nyeri dan bengkak pada sendi dan otot penderita osteoarthritis (sakit sendi), rematik, ankylosing spondylitis (inflamasi memengaruhi tulang belakang dan sendi-sendi besar) dan asam urat. Coxiron juga berguna untuk pengobatan nyeri sedang setelah operasi gigi dalam jangka pendek.\n\n Efek Samping :\n Efek samping penggunaan Coxiron yang mungkin terjadi adalah:\nKonstipasi (sembelit)\nDiar\nMual, muntah\nGastritis (peradangan pada lambung\nPerut kembung\nRefluks asam lambung\nGangguan irama jantung"
         }
     ]
 }
