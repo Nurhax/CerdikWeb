@@ -14,35 +14,58 @@ body {
     background-color: #fff;
 }
 
-header {
-    width: 100%;
-    background-color: rgb(39, 39, 249);
-    color: white;
-    padding: 15px;
+.logo{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
-    top: 0;
+    justify-content: flex-start;
+    align-items: left;
 }
 
-.logo h1 {
-    margin-left: 10px;
+.p {
+    padding-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
 }
 
 
-header h1{
+h1{
     color: white;
     text-align: left;
     padding: 0px 60px;
 }
 
-nav{
-    background-color: rgb(39, 39, 249);
+nav {
+    background-color: #2563EB;
     display: flex;
     justify-content: space-between;
     padding: 30px;
     align-items: center;
+    position: fixed;
+    top: 0;
+    /* Jarak dari atas */
+    width: 100%;
+    /* Lebar penuh */
+    z-index: 1000;
+    /* Pastikan navbar berada di atas konten lainnya */
+}
+
+.Logo img {
+    height: 50px;
+    /* Tentukan tinggi logo */
+    width: auto;
+}
+
+.Logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+}
+
+.Logo p {
+    padding-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
 }
 
 nav ul {
@@ -50,6 +73,7 @@ nav ul {
     list-style: none;
     align-items: center;
 }
+
 
 nav ul li a {
     text-decoration: none;
@@ -61,30 +85,31 @@ nav ul li a {
 
 }
 
-nav ul li  :hover{
+nav ul li :hover {
     background-color: white;
     color: rgb(39, 39, 249);
     border-radius: 30px;
 
 }
 
+
+
 nav ul li :focus {
     text-decoration: underline;
-    outline: none;
+    outline: none;
 
 }
 
 .container {
     text-align: center;
-    padding: 50px;
+    padding-top: 500px;
 }
 
 h1 {
+    font-weight: bolder;
     font-size: 48px;
-    font-weight: bold;
-    padding-top: 230px;
+    padding-top: 200px;
     padding-bottom: 40px;
-    
 }
 
 .search-bar {
@@ -141,7 +166,6 @@ h1 {
 
 .categories h2 {
     font-size: 28px;
-    font-weight: bold;
     color: #333;
     margin-bottom: 20px;
 }
@@ -212,4 +236,61 @@ h1 {
 
 .back-button:hover {
     background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Footer */
+
+footer {
+    background-color: #2563EB;
+    /* Warna latar belakang biru */
+    color: #ffffff;
+    /* Warna teks putih */
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+    width: 100%;
+}
+
+footer h4{
+    margin-bottom: 30px;
+}
+
+footer h5, #list{
+    text-align: left;
+    padding-left: 90px;
+}
+
+footer a {
+    color: #ffffff;
+    /* Warna tautan putih */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .container-fluid {
+    max-width: 2000px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer .d-flex img {
+    width: 140px;
+}
+
+footer .d-flex img:first-child {
+    margin-right: 15px;
+}
+
+footer, #listGambar{
+    justify-content: center;
 }
