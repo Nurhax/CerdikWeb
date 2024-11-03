@@ -1,0 +1,16 @@
+{
+    "Kategori": [
+        {
+            "title": "Jadwal Obat",
+            "content": "Fitur Jadwal Obat pada aplikasi CERDIK dirancang untuk membantu pengguna mengatur dan mengelola jadwal minum obat secara tepat waktu dan konsisten. Dengan fitur ini, pengguna dapat: \n \n 1. Menambahkan Jadwal Obat \n 2. Notifikasi Pengingat \n 3. Melihat Riwayat Konsumsi Obat \n 4. Penyesuaian Jadwal "
+        },
+        {
+            "title": "Obat",
+            "content": "Fitur Obat pada aplikasi CERDIK memungkinkan pengguna untuk menyimpan dan mengelola informasi lengkap tentang obat yang dikonsumsi. Dengan fitur ini, pengguna dapat: \n \n 1. Menambahkan Data Obat \n 2. Melihat Rincian Obat \n 3. Menambahkan Foto Obat "
+        },
+        {
+            "title": "Help Center",
+            "content": "Fitur Help Center pada aplikasi CERDIK berfungsi sebagai pusat bantuan yang menyediakan informasi dan panduan untuk membantu pengguna memaksimalkan penggunaan aplikasi. Dengan fitur ini, pengguna dapat: \n \n 1. FAQ (Frequently Asked Questions) \n 2. Bantuan Teknis"
+        }
+    ]
+}

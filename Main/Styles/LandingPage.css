@@ -1,0 +1,101 @@
+nav{
+    background-color: rgb(39, 39, 249);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 20px;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+nav ul li:hover {
+    background-color: white;
+    color: rgb(39, 39, 249);
+    border-radius: 30px;
+}
+
+nav ul li:focus {
+    text-decoration: underline;
+    outline: none;
+}
+
+
+.footer {
+    background-color: #2563EB;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.footer-column {
+    flex: 1; /* Membuat setiap kolom menempati ruang yang sama */
+    
+}
+
+.footer-section {
+    margin-bottom: 30px;
+}
+
+.footer-section h4 {
+    padding-left: 50px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+    padding: 0px 50px;
+}
+
+.footer-column h5 {
+    margin-bottom: 15px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.footer-column{
+    padding-right: 400px;
+}
+
+.footer-column ul {
+    list-style: none;
+    text-align: left;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-apps a img {
+    width: 140px;
+    margin: 0 10px;
+}
+
