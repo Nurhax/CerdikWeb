@@ -100,6 +100,23 @@ $(document).ready(function(){
             $('#modalSaveButton').text('Add Mitra');
         }
     });
+    $('.deleteBtn').on('click', function() {
+        // pilih semua row
+        const selectedRows = $('tr.selected');
+    
+        // hapus semua selected row 
+        selectedRows.each(function() {
+            const rowId = $(this).data('id'); //Ambil semua id setiap row
+    
+            $(this).remove();
+    
+            // Update JSON data
+            mitraData.mitra = mitraData.mitra.filter(item => item.id !== rowId);
+        });
+    
+        // Disable Edit button 
+        $('.editBtn').addClass('disabled').prop('disabled', true);
+    });
 
     $('#exampleModal').on('hidden.bs.modal', function() {
         //Mereset Modal
