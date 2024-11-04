@@ -32,9 +32,11 @@ $(document).ready(function () {
                     <th scope="row">${index + 1}</th>
                     <td>${mitra.nama}</td>
                     <td>${mitra.sejak}</td>
-                    <td><img src="${
-                      mitra.imgSrc
-                    }" class="logo-image" style="height: 40px;"></td>
+                    <td>
+                    <a href= "${mitra.link}" >
+                     <img  src="${mitra.imgSrc}" class="logo-image" style="height: 40px;">
+                     </a>
+                    </td>
                     <td><input type="checkbox" class="custom-checkbox" style="display: none;"></td>
                 </tr>
             `;
@@ -80,6 +82,7 @@ $(document).ready(function () {
       // Collect data from form fields
       const newNama = $("#inputNamaMitra").val();
       const newSejak = $("#inputSejak").val();
+      const newLink = $("#inputLink").val();
       const newImgSrc = $("#imagePreview").attr("src") || "./"; // Use a placeholder if no image is uploaded
 
       // Generate a new ID for the entry (could be based on the last ID + 1 or use a UUID)
@@ -93,6 +96,7 @@ $(document).ready(function () {
         nama: newNama,
         sejak: newSejak,
         imgSrc: newImgSrc,
+        link: newLink,
       };
 
       // Add new entry to JSON data
@@ -104,7 +108,11 @@ $(document).ready(function () {
                     <th scope="row">${mitraData.mitra.length}</th>
                     <td>${newEntry.nama}</td>
                     <td>${newEntry.sejak}</td>
-                    <td><img src="${newEntry.imgSrc}" class="logo-image" style="height: 40px;"></td> 
+                    <td>
+                    <a href= "${newEntry.link}" >
+                    <img src="${newEntry.imgSrc}" class="logo-image" style="height: 40px;">
+                     </a>
+                    </td>
                     <td><input type="checkbox" class="custom-checkbox" style="display: none;"></td>
                 </tr>
             `;

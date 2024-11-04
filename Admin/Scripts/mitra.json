@@ -1,12 +1,12 @@
 {
     "mitra": [
-        {"id": "1", "nama": "Telkom University", "imgSrc": "../images/telu.png", "sejak": 2022},
-        {"id": "2", "nama": "T-Mart", "imgSrc": "../images/CerdikLogo.png", "sejak": 2023},
-        {"id": "3", "nama": "Cut-Cut RoadRage", "imgSrc": "./", "sejak": 2023},
-        {"id": "4", "nama": "Souf n'Cake", "imgSrc": "./", "sejak": 2024},
-        {"id": "5", "nama": "madjadev studios", "imgSrc": "./", "sejak": 2022},
-        {"id": "6", "nama": "sendwish", "imgSrc": "./", "sejak": 2024},
-        {"id": "7", "nama": "nurhax", "imgSrc": "./", "sejak": 2019},
-        {"id": "8", "nama": "mentaiCo.", "imgSrc": "./", "sejak": 2024}
+        {"id": "1", "nama": "Telkom University", "imgSrc": "../images/telu.png", "sejak": 2022, "link" :"https://telkomuniversity.ac.id" },
+        {"id": "2", "nama": "T-Mart", "imgSrc": "../images/tmart.jpg", "sejak": 2023, "link" :"https://canteen.telkomuniversity.ac.id/t-mart/"},
+        {"id": "3", "nama": "Cut-Cut RoadRage", "imgSrc": "../images/cutCut.png", "sejak": 2023, "link" :"https://nurhax.itch.io/cutcutroadrage"},
+        {"id": "4", "nama": "Souf n'Cake", "imgSrc": "../images/Souf.jpg", "sejak": 2024, "link" :"https://www.instagram.com/soufncake/"},
+        {"id": "5", "nama": "madjadev studios", "imgSrc": "../images/Madja.jpg", "sejak": 2022, "link" : "https://nurhax.itch.io"},
+        {"id": "6", "nama": "sendwish", "imgSrc": "../images/Sendwish.jpg", "sejak": 2024, "link" : "https://www.instagram.com/mentaico.official/"},
+        {"id": "7", "nama": "nurhax", "imgSrc": "../images/Nurhax.jpg", "sejak": 2019, "link" :"https://www.youtube.com/@Nurhax"},
+        {"id": "8", "nama": "mentaiCo.", "imgSrc": "../images/MentaiCo.jpg ", "sejak": 2024, "link" : "https://www.instagram.com/mentaico.official/"}
     ]
 }
