@@ -248,6 +248,13 @@ h2 {
     font-size: x-large;
 }
 
+
+#popup-img{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
 .back-button {
     background-color: #007BFF;
     /* Bootstrap Primary Color */

@@ -1,3 +1,5 @@
+
+arrGambar =[];
 arrTitle = [];
 arrDesk = [];
 const moreCards = [
@@ -14,6 +16,7 @@ $(document).ready(function () {
 function loadJSON() {
     $.getJSON('Scripts/tentangObat.json', function (data) {
         for (var i in data["informasiObat"]) {
+            arrGambar.push(data["informasiObat"][i]["gambar"]);
             arrTitle.push(data["informasiObat"][i]["title"]);
             arrDesk.push(data["informasiObat"][i]["deskripsi"]);
         }
@@ -23,10 +26,12 @@ function loadJSON() {
 // untuk menampilkan popup berdasarkan indeks card
 function showPopup(index) {
     const popup = document.getElementById("popup");
+    const popupGambar = document.getElementById("popup-img")
     const popupTitle = document.getElementById("popup-title");
     const popupText = document.getElementById("popup-text");
 
     // Mengatur isi dari popup dengan memanggil title dan deskripsi
+    popupGambar.src = `${arrGambar[index]}`;
     popupTitle.innerText = `${arrTitle[index]}`;
     popupText.innerText = `\n${arrDesk[index]}`;
     popup.style.display = "block"; // Menampilkan popup
