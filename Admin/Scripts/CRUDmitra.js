@@ -143,6 +143,7 @@ $(document).ready(function () {
       //Mengisi form dengan data
       $("#inputNamaMitra").val(selectedRowData.nama);
       $("#inputSejak").val(selectedRowData.sejak);
+      $("#inputLink").val(selectedRowData.link);
 
       // preview image jika ada path nya
       if (selectedRowData.imgSrc) {
@@ -158,6 +159,7 @@ $(document).ready(function () {
       // Kalau tidak ada data maka blank kan modal
       $("#inputNamaMitra").val("");
       $("#inputSejak").val("");
+      $("#inputLink").val("");
       $("#imagePreview").hide();
       $("#modalSaveButton").text("Add Mitra");
     }
@@ -206,17 +208,20 @@ $(document).ready(function () {
       // Mengambil nilai pada Form
       const updatedNama = $("#inputNamaMitra").val();
       const updatedSejak = $("#inputSejak").val();
+      const updatedLink = $("#inputLink").val();
       const updatedImgSrc = $("#imagePreview").attr("src");
 
       // Mengupdate JSON di memory
       selectedRowData.nama = updatedNama;
       selectedRowData.sejak = updatedSejak;
+      selectedRowData.link = updatedLink;
       selectedRowData.imgSrc = updatedImgSrc;
 
       // Mengupdate Table
       const selectedRow = $("tr.selected");
       selectedRow.find("td:eq(0)").text(updatedNama); // Update Nama
       selectedRow.find("td:eq(1)").text(updatedSejak); // Update Sejak
+      selectedRow.find("a").attr("href", updatedLink);  // Update Link 
       selectedRow.find("img.logo-image").attr("src", updatedImgSrc); // Update Image
 
       // Menutup Modal
